@@ -1,0 +1,46 @@
+{
+  "name": "@douglasdemoura/eslint-config",
+  "description": "My personal ESLint configuration.",
+  "version": "1.0.0",
+  "files": [
+    "react.js"
+  ],
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "url": "douglasdemoura/eslint-config-douglasdemoura"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "@typescript-eslint/utils": "^5.30.5",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "7.31.7",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.5.13",
+    "eslint-plugin-testing-library": "^5.5.1",
+    "eslint-plugin-vitest": "^0.0.8",
+    "eslint-plugin-vitest-globals": "^1.2.0",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.23.0 || ^8.0.0",
+    "typescript": ">=3.3.1"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
