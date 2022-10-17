@@ -580,10 +580,10 @@ eslint-plugin-vitest-globals@^1.2.0:
   dependencies:
     eslint-config-sets "^1.8.3"
 
-eslint-plugin-vitest@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.8.tgz#3c04ae5fa53b284e42ea48463b70582bec0f2f4c"
-  integrity sha512-6xn2b4Cspn7Qc0v/ZMCq13fmsucnkEeUeKCna57M5vayvreshHEUFVgjtsksnyODlHIm9oyVfNfSFkToYz/dJg==
+eslint-plugin-vitest@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.11.tgz#28816eaba24b86d6882c32b05a2d21a89e4f2369"
+  integrity sha512-L3wnfKxsUFmd8aUqmrWD6CZ6YFBFqADVvs67uQR+pC095XPrvPgFjFMlsMBGDhmEZNjnAy/Fds2PcJKC0aZDCA==
   dependencies:
     "@typescript-eslint/utils" "^5.17.0"
 
