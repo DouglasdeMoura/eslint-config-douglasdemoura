@@ -195,7 +195,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/utils@5.42.1", "@typescript-eslint/utils@^5.13.0", "@typescript-eslint/utils@^5.17.0", "@typescript-eslint/utils@^5.30.5":
+"@typescript-eslint/utils@5.42.1", "@typescript-eslint/utils@^5.13.0", "@typescript-eslint/utils@^5.30.5", "@typescript-eslint/utils@^5.42.1":
   version "5.42.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.42.1.tgz#2789b1cd990f0c07aaa3e462dbe0f18d736d5071"
   integrity sha512-Gxvf12xSp3iYZd/fLqiQRD4uKZjDNR01bQ+j8zvhPjpsZ4HmvEFL/tC4amGNyxN9Rq+iqvpHLhlqx6KTxz9ZyQ==
@@ -587,12 +587,12 @@ eslint-plugin-vitest-globals@^1.2.0:
   dependencies:
     eslint-config-sets "^1.8.3"
 
-eslint-plugin-vitest@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.13.tgz#91712d8f964d563d7896fb4857b108f92bcd854f"
-  integrity sha512-hNDXyLLufReSfz+QAMMIGXrvnaI3atWps3MfyzTHcjM1gbun+/yL7z5pZQ9vDJ4DsC8zplv3C7bX3/CPOLqYXg==
+eslint-plugin-vitest@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.14.tgz#9c5fda6b2415556ebf55f4fd3361dd8ceaab023d"
+  integrity sha512-CQuhBRodkE8VTJAPg8KiY5OE+bP6vr+GGDa6MvEOCFmltrQ2iJkr4g6+7jkzJid+yzt+v9XkEwXNHsODZsDryA==
   dependencies:
-    "@typescript-eslint/utils" "^5.17.0"
+    "@typescript-eslint/utils" "^5.42.1"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
