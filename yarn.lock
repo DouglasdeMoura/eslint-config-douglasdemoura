@@ -620,10 +620,10 @@ eslint-plugin-vitest-globals@^1.2.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-vitest-globals/-/eslint-plugin-vitest-globals-1.3.1.tgz#05d13739e8554e6739b43900da5e6c673de88e34"
   integrity sha512-ELBqLfu/ZAwVHE1uEvj+Z06o4WnaD+5IcwW/OHQ5qVPA7i7mZexnUBj+04BF60rY7pb3ljRgJRsK+rCTmSS/5g==
 
-eslint-plugin-vitest@^0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.54.tgz#7cf3633e100f57bfa1315af601fec934e2ad1fd0"
-  integrity sha512-6ZR52LJ2pNe3aVaWkDBR7Cg8FlpEe9XDWnvtHU0kbl01IgijPRL3tVSfjiBSfpYUF8kzC0W9XjhzHttElOsXiQ==
+eslint-plugin-vitest@^0.0.57:
+  version "0.0.57"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vitest/-/eslint-plugin-vitest-0.0.57.tgz#e7be4827b0c0bb276432ed2acedee83ef352d7e1"
+  integrity sha512-+Ab+QrgjkqwIu7DqtW6D+/F+HmlyQ0dV78jOWs12RscKsFdXdX4IU0u3zM/sXN6ju2DJN4wwxx2/i+eIHkcWpg==
   dependencies:
     "@typescript-eslint/utils" "^5.53.0"
 
