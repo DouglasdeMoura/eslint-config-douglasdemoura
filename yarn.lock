@@ -421,6 +421,11 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+dotenv@16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
 emoji-regex@^9.2.2:
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
@@ -527,11 +532,11 @@ eslint-config-prettier@^8.3.0:
   integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
 eslint-config-turbo@latest:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-0.0.10.tgz#93c996b3a09da33b336e77a11ba6d5e2c323147a"
-  integrity sha512-o4ULFZYM1OihSd63eDGEuy9rt6tW4ma6xnW9grnr44BoJwKaGQko2aka9kfqQs0vtmwD1++Os3ThPHETmzkFzA==
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-1.10.4.tgz#b2e804bf7852c7eec2cb2ede0ea07f284e4fda6e"
+  integrity sha512-hmcN373hjDF8sXAJcptL15PCKsDSc3ImcIiH6Q3H0cGbbQgeHpTIwd9WeUbs+9b6xV1jO5rgpNORiJ6Hu20kRg==
   dependencies:
-    eslint-plugin-turbo "0.0.10"
+    eslint-plugin-turbo "1.10.4"
 
 eslint-plugin-import-helpers@^1.2.1:
   version "1.3.1"
@@ -610,10 +615,12 @@ eslint-plugin-testing-library@^5.5.1:
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 
-eslint-plugin-turbo@0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-0.0.10.tgz#9454a23902df46e6b3a697c131bcc6ac07bc8e76"
-  integrity sha512-T7QRwF4rjBQCJD9AHLHn9ShtHCHNkfIZW5Oio92WtQYhoU5jZCU3ynU+ONFXLuvoUx4dJ19WergIyHL+DwL2+g==
+eslint-plugin-turbo@1.10.4:
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-1.10.4.tgz#9f9091111ab77d0ebdf6f77342a88b0b2b9453e0"
+  integrity sha512-FmwJ/s8vqE4COoAxT9oZfZfl4yDDBTnVkAZtkwIRv5QtudeC0vD8fAkLyM3YdBKlHf5nu+qs7zZZW14v8LpnVg==
+  dependencies:
+    dotenv "16.0.3"
 
 eslint-plugin-vitest-globals@^1.2.0:
   version "1.3.1"
