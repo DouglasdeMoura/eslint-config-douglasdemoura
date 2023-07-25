@@ -13,7 +13,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
-    "@typescript-eslint/utils": "^5.30.5",
+    "@typescript-eslint/utils": "^6.2.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-turbo": "latest",
